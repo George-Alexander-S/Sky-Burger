@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body class="bookingbody">
+
+    <div class="navbar-div">
+        <ul class="navbar-ul">
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="meny.html">Nona's Meny</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="contact.html">Kontakt oss</a></li>
+            <li><a href="about.html">Om Nona's Kitchen</a></li>
+        </ul>
+    </div>
+
+    
+    <div class="bookingtext">
+        <p>Bring us your leader</p>
+    </div>
+    
+    <div class="bookingcontainer">
+        <form action="action_page.php">
+
+            <label for="fname">Fornavn</label>
+            <input type="text" id="fname" name="firstname" placeholder="Ditt fornavn">
+
+            <label for="lname">Etternavn</label>
+            <input type="text" id="lname" name="lastname" placeholder="Ditt etternavn">
+
+            <label for="nrofpeople">Antall personer</label>
+            <input type="text" id="nrofpeople" name="numberofpeople" placeholder="Antall personer">
+
+            <label for="dato">Ønsket dato og klokkeslett</label>
+            <input type="datetime-local" id="dato" name="dato">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>
