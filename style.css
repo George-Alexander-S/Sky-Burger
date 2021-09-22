@@ -92,7 +92,7 @@ h2 {
     text-align: center;
 }
 
-.frontbody {
+#frontbody {
     background-image: url(/images/largeimages/astroburgertest2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -104,11 +104,11 @@ h2 {
     color: steelblue;
 }
 
-.menubody {
+#menubody {
     background-image: url(/images/largeimages/menubackground.jpg);
 }
 
-.bookingbody {
+#bookingbody {
     background-image: url(/images/largeimages/purpletunnel.jpg);
 }
 
