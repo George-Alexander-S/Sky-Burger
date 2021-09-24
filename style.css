@@ -93,7 +93,7 @@ h2 {
 }
 
 #frontbody {
-    background-image: url(/images/largeimages/astroburgertest2.jpg);
+    background-image: url(images/largeimages/astroburgertest2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -153,8 +153,5 @@ label {
     border-radius: 5px;
     background-color: #471369;
     padding: 20px;
-    width: 50%;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 25%;
+    width: 500px;
     }
